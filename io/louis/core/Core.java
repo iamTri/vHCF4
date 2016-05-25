@@ -134,8 +134,8 @@
 /*  134 */     LoadScoreboard();
 /*  135 */     LoadGapple();
 /*  136 */     this.glaedr = new Glaedr(this, cfg3.getString("Scoreboard.Title"), true, true, false);
-/*  137 */     this.glaedr.getBottomWrappers().add("&7&m--------------------");
-/*  138 */     this.glaedr.getTopWrappers().add("&7&m--------------------");
+/*  137 */     this.glaedr.getBottomWrappers().add("&7&m--+----------------+--");
+/*  138 */     this.glaedr.getTopWrappers().add("&7&m--+----------------+--");
 /*  139 */     this.glaedr.registerPlayers();
 /*  140 */     pl = this;((Core)this).runPrereleaseChecker();
 /*  141 */     if (!super.getDataFolder().exists()) {
@@ -190,7 +190,7 @@
 /*  190 */             Player[] allPlayers = Core.this.getServer().getOnlinePlayers();
 /*  191 */             Player telPlayer = allPlayers[random.nextInt(allPlayers.length)];
 /*  192 */             p.teleport(telPlayer);
-/*  193 */             p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&bTeleported to: &a") + telPlayer
+/*  193 */             p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&eTeleported to: &6") + telPlayer
 /*  194 */               .getDisplayName());
 /*      */           } else {
 /*  196 */             ModMode.teleportList.remove(p); } } }, 0L, 60L);
