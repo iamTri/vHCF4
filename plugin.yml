@@ -1,0 +1,73 @@
+name: vHCF
+version: 4.0/7c3nZPYv
+author: Louis, Togglinq
+main: io.louis.core.Core
+depend: [WorldEdit, WorldGuard, Essentials, tKoth, Factions]
+commands:
+  juggernaut:
+  lives:
+  pvp:
+    aliases: [pvptimer]
+  logout:
+  death:
+  viewkit:
+  setendportal:
+  setoverworldportal:
+  setnetherportal:
+  ss:
+  revive:
+  freezeall:
+  border:
+  hcfstuff:
+  hcfver:
+  hcfcore:
+  deathbans:
+    aliases: [deathban]
+  stuck:
+  ct:
+    aliases: [combattag]
+  pvpprotection:
+  raidable:
+  filter:
+  sotw:
+  tutorial:
+    aliases: [tut]
+  bard:
+  gapple:
+  help:
+  coords:
+    aliases: [cords]
+  mutechat:
+    aliases: [mc]
+  clearchat:
+    aliases: [cc]
+  staffchat:
+    aliases: [sc]
+  slowchat:
+  inv:
+  wrench:
+  endportal:
+  cancel:
+  pinklist:
+  lag:
+  rules:
+  mod:
+    aliases: [h, staff, helper, moderator, modmode, admin]
+  report:
+    aliases: [nreport]
+  helpop:
+    aliases: [helpme]
+  nwho:
+    aliases: [elist, who, list]
+  vanish:
+  slowstop:
+  fsay:
+  copyinv:
+  myip:
+  utils:
+  drop:
+  checkmotd:
+  throw:
+  ram:
+  removebedrock:
+  info:

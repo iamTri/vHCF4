@@ -1,0 +1,30 @@
+NO_PERMISSION: "&cNo."
+NO_CONSOLE: "&cConsole cannot use this command."
+COMBAT_TAG:
+  IN_COMBAT: "&7You are not currently in combat."
+  OUT_COMBAT: "&7You are currently in combat for &c{combat-time}&7."
+STAFF_UTILS:
+  CLEARCHAT: "&aChat has been cleared by &e{name}"
+GENERAL:
+  PLAYER_EXIST: "&cPlayer does not exist."
+  PLAYER_OFFLINE: "&cPlayer does not exist."
+EOTW_DEATHBANS:
+  ALREADY_ENABLED: "&cEOTW Deathbans already &aenabled&c."
+  ALREADY_DISABLED: "&cEOTW Deathbans already &adisabled&c."
+  ENABLED: "&cEOTW Deathbans &7 - &aenabled&c."
+  DISABLED: "&cEOTW Deathbans &7 - &adisabled&c."
+NPC:
+  DOESNT_EXIST: "&cNPC doesn't exist"
+  KILLED: "&cSuccessfully killed &a{player}&c's NPC."
+END_PORTAL:
+  SELECT_FRAME: "&cYou must select an end portal frame."
+  SELECT_PORTAL: "&cYou must select an end portal frame."
+  SET_FIRST: "&cPlease set the first location (by left clicking the end portal frame)."
+  FIRST_POS: "&aSuccessfully set the first location."
+  SECOND_POS: "&aSuccessfully set the second location."
+  TOO_BIG: "&cYour selection is too big."
+  SAME_Y: "&cMake sure both portals have the same Y"
+  COMPLETE: "&aCreated the end portal"
+  INV: "&cPlease have an empty slot in your inventory."
+  TWO_POINTS: "&cPlease select &a2 &cpoints."
+  WARZONE: "&aYou cannot make end portals in &4Warzone&c."
